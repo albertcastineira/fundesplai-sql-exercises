@@ -85,7 +85,7 @@ INSERT INTO Artist(artistName) VALUES
 2: ``` SELECT * FROM mytable WHERE phone LIKE '811%'; ```  
 3: ``` SELECT * FROM mytable WHERE country IN ("Italy","Spain"); ```   
 4: ``` SELECT COUNT(*) FROM mytable; ``` 
-5: ``` SELECT region, country, postalZip FROM mytable WHERE id IN(SELECT id FROM mytable WHERE country IN('Turkey',"Germany")); ```  
+5: ``` SELECT region, country, postalZip FROM mytable WHERE id IN(SELECT id FROM mytable WHERE country IN('Turkey',"Germany")); ```   
 6: ``` SELECT MIN(id), MAX(id) FROM mytable; ```  
 7: ``` SELECT country, COUNT(*) FROM mytable GROUP BY country; ```  
 8: ``` SELECT * FROM mytable ORDER BY postalZip LIMIT 10; ```  
